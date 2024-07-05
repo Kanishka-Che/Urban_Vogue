@@ -1,0 +1,138 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Navigation bar image */
+  nav img {
+    height: 40px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Navigation bar list */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Navigation bar list items */
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Navigation bar links */
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: lightgray;
+  }
+  
+  /* Button */
+  nav .buttonNav {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  nav .buttonNav:hover {
+    background-color: #f7f7f7;
+  }
+
+  a {
+    text-decoration: none;
+}
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 75%;
+    width: auto;
+    position: relative;
+}
+
+.login-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('src/assets/back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+form {
+    background-color:#4e584f; /* Adjust the opacity as needed */
+    background: transparent;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(245, 243, 243, 0.959);
+    z-index: 1; /* Ensure the form appears above the pseudo-element */
+    border: 20%;
+    backdrop-filter: #4e584f;
+}
+
+  button{
+    background-color: #4CAF50;
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .input-che {
+    margin-bottom: 15px;
+  }
+  
+  .input-che input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .register-acc {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .register-acc a {
+    color: rgb(0, 0, 255);
+  }
+.forgot{
+    color: #f7f7f7;
+}
+.forgot a{
+    color: rgb(0, 0, 255);
+}

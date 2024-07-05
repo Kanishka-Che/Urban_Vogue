@@ -1,0 +1,299 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Navigation bar image */
+  nav img {
+    height: 40px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Navigation bar list */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Navigation bar list items */
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Navigation bar links */
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: lightgray;
+  }
+  
+  /* Button */
+  nav .buttonNav {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  nav .buttonNav:hover {
+    background-color: #f7f7f7;
+  }
+
+  a {
+    text-decoration: none;
+}
+
+/* about */
+
+.about {
+    font-size: 20px;
+    background-color: #4F6F52; 
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px ;
+    
+}
+h1 {
+    font-size: 3rem;
+}
+p {
+    opacity: 0.5;
+}
+
+/* Styling the hero images section */
+.hero-images {
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    height: 50px;;
+}
+
+/* Column styles */
+.column1,
+.column2,
+.column3 {
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 20%; /* Each column takes one-third of the width */
+    height: 200px; /* Adjust height as needed */
+    gap: 10px;
+
+    
+}
+
+.column1 img,
+.column2 img,
+.column3 img {
+    max-width: 100%; /* Ensure images fit within columns */
+    /* Adjust as needed */
+    top: 0;
+   
+}
+.hero-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.Our-Story{
+  gap: 40px;
+  margin-top:30%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  
+ 
+
+}
+.our-p{
+  width: 100%;
+  background-color: rgb(198, 164, 121);
+
+}
+.buttons{
+ display: flex;
+ flex-direction: row;
+ gap: 100px;
+ 
+
+
+}
+button{
+  padding: 10px 30px;
+ border-radius: 300px;
+ border: none;
+ background-color: rgb(27, 115, 27) ;
+  
+}
+.button_story{
+  background-color: #fff;
+  border: 2px solid rgb(7, 1, 1);
+  
+}
+ div.buttons :hover{
+  background-color: #1eaf2f;
+}
+ div .button_story:hover{
+  background-color: #ccbfa1;
+ }
+
+.Our-number{
+   background-color: #E8DFCA;
+   margin-top: 40px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.data{
+  display: flex;
+  flex-direction: row;
+  gap:120px;
+}
+.white{
+  color: #050303;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+}
+
+.p6, .p7, .p8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items horizontally */
+  text-align: center; /* Align text center */
+  margin: 0 20px; /* Add some margin between items */
+}
+
+.p6 img, .p7 img, .p8 img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.Our-team {
+  padding: 0 50px;
+  margin-top: 20px;
+}
+
+.image-section img {
+      padding: 0 50px;
+      width: 50%;
+      height: 50%;
+      border-radius: 50%;
+      
+}
+.image-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  top: 20%;
+}
+
+.p6{    
+      display: flex;
+      flex-direction:column;
+      width: 100%;
+      height: 100%;
+      border-radius: 40%;
+      padding: 0 50px;
+}
+.p7{
+      width: 100%;
+      border-radius: 20%;
+      padding: 0 50px;
+}
+
+.p8{
+      width: 100%;
+      height: 100%;
+      border-radius: 4%;
+      padding: 0 50px;
+}
+/*our team images*/
+
+.data-cards{
+  column-gap: 50px;
+  padding: 50px;
+  background-color:#F5EFE6;
+  
+}
+
+.card-container img{
+  margin-top: 5px;
+  width: 100px;
+  gap: 50px;
+}
+
+.card{
+  padding: 50px;
+  height: 150px;
+  width:700px;
+  margin-top: 1%;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0%;
+  background-color: #E8DFCA;
+  border-radius: 20px;
+  
+}
+.card1{
+  display: flex;
+  flex-direction:column;
+}
+.card-container{
+  margin:0 50px;
+}
+/*footer-info*/
+.footer-info {
+  display:flex;
+  flex-direction: row;
+}
+.footer-left{
+  padding: 50px;
+  width: 700px;;
+}
+.pn-img{
+  width: 50px;
+}
+.p-wid{
+  width: 350px ;
+}
+
+
+.footer-right{
+  display: flex;
+  flex-direction:row ;
+  gap: 150px;
+  padding-top: 50px;
+}
