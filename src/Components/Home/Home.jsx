@@ -30,7 +30,7 @@ const Home = () => {
 
       <section className="about">
       <h3>About</h3>
-      <h4>Welcome to My Website!</h4>
+      <h4>Welcome to Urban Vouge!</h4>
       <h1>We Love To Make Great Things, Things That Matter</h1>
       <p>
         In psychological exploration, understanding human behavior involves delving
