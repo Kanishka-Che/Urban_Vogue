@@ -11,10 +11,12 @@ const Login = () => {
             <img src={NavImg}/>
             <ul>
                 <li><NavLink to="/">Home</NavLink></li>
-                <li>Products</li>
-                <li>Services</li>
-                <li>About</li>
-                <li><NavLink to="/user-login"><button className="buttonNav" >Login</button></NavLink></li>
+                <li>About Us</li>
+                <li>Services/Products</li>
+
+                <li><NavLink to="/Contact"><button className='batton02'></button>Contact Us</NavLink></li>
+
+                <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
             </ul>
         </nav>
         <div className='login-page'>
@@ -23,7 +25,7 @@ const Login = () => {
             <div className="login_section">
 
             <form action=''>
-                 <h2>Login</h2>
+                 <h2 className='login01'>Login</h2>
 
                  <div className='input-che'>
                      <input type="text" placeholder='Username' required/> 
@@ -41,7 +43,7 @@ const Login = () => {
                  <button type='submit'>Login</button>
                  
                  <div className='register-acc'>
-                    <p>Don't have an account? <a href='#'>Register</a></p>
+                    <p3>Don't have an account? <a href='#'>Register</a></p3>
                  </div>
                  
             </form>

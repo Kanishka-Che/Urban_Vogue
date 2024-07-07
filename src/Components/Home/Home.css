@@ -68,6 +68,12 @@ a {
   padding: 10px 20px; 
     font-size: 20px;
     padding: 50px;
+    margin: 20px;
+    padding: 100px;
+    background: url(E:\Urban_Vogue\src\assets\home01.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,7 +103,7 @@ h1 {
     font-size: 4rem;
     font-family: "Dancing Script", cursive;
 }
-p {
+.about-cont,p {
   padding: 10px;
   height: 50px;
   width:400px;
@@ -126,14 +132,15 @@ p {
 /* Column styles */
 .column1,
 .column2,
-.column3 {
+.column3,
+.column4 {
     margin-top: 40%;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
     width: 20%; /* Each column takes one-third of the width */
-    height: 200px; /* Adjust height as needed */
+    height: 700px; /* Adjust height as needed */
     gap: 10px;
 
     
@@ -141,194 +148,69 @@ p {
 
 .column1 img,
 .column2 img,
-.column3 img {
+.column3 img,
+.column4 img {
     max-width: 100%; /* Ensure images fit within columns */
     /* Adjust as needed */
-    top: 0;
+    top: 700px;
    
 }
 .hero-images{
+    padding-top: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     
 }
-.Our-Story{
-  gap: 40px;
-  margin-top:30%;
-  padding: 5%;
+
+.our01{
+  padding-top: 100%;
   display: flex;
   flex-direction: column;
-  
- 
-
-}
-.our-p{
-  width: 100%;
-  background-color: rgb(198, 164, 121);
-
-}
-.buttons{
- display: flex;
- flex-direction: row;
- gap: 100px;
- 
-
-
-}
-button{
-  padding: 10px 30px;
- border-radius: 300px;
- border: none;
- background-color: rgb(27, 115, 27) ;
-  
-}
-.button_story{
-  background-color: #fff;
-  border: 2px solid rgb(7, 1, 1);
-  
-}
- div.buttons :hover{
-  background-color: #1eaf2f;
-}
- div .button_story:hover{
-  background-color: #ccbfa1;
- }
-
-.Our-number{
-   background-color: #E8DFCA;
-   margin-top: 40px;
-   display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
-  gap: 50px;
 }
-.data{
-  display: flex;
-  flex-direction: row;
-  gap:120px;
-}
-.white{
-  color: #050303;
-}
-
-.image-section {
-  display: flex;
-  justify-content: center; /* Align items horizontally */
-  align-items: center; /* Align items vertically */
-}
-
-.p6, .p7, .p8 {
+.Our-Story{
+  gap: 100px;
+  padding-top:0%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align items horizontally */
-  text-align: center; /* Align text center */
-  margin: 0 20px; /* Add some margin between items */
-}
-
-.p6 img, .p7 img, .p8 img {
-  max-width: 100%; /* Ensure images don't exceed their container */
-  height: auto; /* Maintain aspect ratio */
-}
-
-.Our-team {
-  padding: 0 50px;
-  margin-top: 20px;
-}
-
-.image-section img {
-      padding: 0 50px;
-      width: 50%;
-      height: 50%;
-      border-radius: 50%;
-      
-}
-.image-section{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  gap: 40px;
-  top: 20%;
 }
-
-.p6{    
-      display: flex;
-      flex-direction:column;
-      width: 100%;
-      height: 100%;
-      border-radius: 40%;
-      padding: 0 50px;
-}
-.p7{
-      width: 100%;
-      border-radius: 20%;
-      padding: 0 50px;
-}
-
-.p8{
-      width: 100%;
-      height: 100%;
-      border-radius: 4%;
-      padding: 0 50px;
-}
-/*our team images*/
-
-.data-cards{
-  column-gap: 50px;
-  padding: 50px;
-  background-color:#F5EFE6;
-  
-}
-
-.card-container img{
-  margin-top: 5px;
-  width: 100px;
-  gap: 50px;
-}
-
-.card{
-  padding: 50px;
-  height: 150px;
-  width:700px;
-  margin-top: 1%;
-  gap: 50px;
+.Our-Story01{
+  gap: 0px;
+  margin-top:0%;
   display: flex;
-  flex-direction: row;
-  margin-left: 0%;
-  background-color: #d0bf98;
-  border-radius: 20px;
-  
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
 }
-.card1{
+.Our-Story02{
+  gap: 0px;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+  align-items: center;
 }
-.card-container{
-  margin:0 50px;
+.our05{
+  font-weight:550;
 }
-/*footer-info*/
-.footer-info {
-  display:flex;
-  flex-direction: row;
+.our03{
+  font-weight:550;
 }
-.footer-left{
-  padding: 50px;
-  width: 700px;;
+.our06{
+  gap:0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.pn-img{
-  width: 50px;
-}
-.p-wid{
-  width: 350px ;
+
+.Our-map{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight:550;
 }
 
 
-.footer-right{
-  display: flex;
-  flex-direction:row ;
-  gap: 150px;
-  padding-top: 50px;
-}
+

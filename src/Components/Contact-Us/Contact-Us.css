@@ -1,0 +1,23 @@
+.Our-map{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight:550;
+  }
+  .our06{
+    margin-top:5%;
+  }
+  .batton02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent to remove default link color */
+    background: none; /* Remove any default background */
+    border: none; /* Remove any default border */
+    padding: 0px; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: inline-flex; /* Ensure the button and text are aligned properly */
+    
+  }
