@@ -83,6 +83,9 @@ nav {
     
     z-index: -1; /* Ensure the pseudo-element is behind other content */
 }
+.login01{
+  color: rgb(5, 5, 247);
+}
 
 form {
     background-color:#4e584f; /* Adjust the opacity as needed */
@@ -96,7 +99,7 @@ form {
 }
 
   button{
-    background-color: #4CAF50;
+    background-color: #06f30e;
     width: 100%;
   }
   
@@ -106,6 +109,7 @@ form {
   
   .input-che {
     margin-bottom: 15px;
+   
   }
   
   .input-che input {
@@ -120,19 +124,24 @@ form {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
+    font-weight: 600;
   }
   
   .register-acc {
     text-align: center;
     color: #ffffff;
+    font-weight: 600;
   }
   
   .register-acc a {
     color: rgb(0, 0, 255);
+    font-weight: 600;
   }
 .forgot{
     color: #f7f7f7;
+    font-weight: 600;
 }
 .forgot a{
     color: rgb(0, 0, 255);
+    font-weight: 600;
 }
