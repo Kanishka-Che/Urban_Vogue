@@ -30,6 +30,7 @@ const Home = () => {
             </ul>
         </nav>
 
+<<<<<<< HEAD
       <section className="about" > 
         <div className='about-cont'>
           <h3>About Us</h3>
@@ -42,6 +43,18 @@ const Home = () => {
         </div>
 
 
+=======
+      <section className="about">
+      <h3>About</h3>
+      <h4>Welcome to Urban Vouge!</h4>
+      <h1>We Love To Make Great Things, Things That Matter</h1>
+      <p>
+        In psychological exploration, understanding human behavior involves delving
+        into cognition, emotions, and motivations. Through research, psychologists
+        unravel the complexities of thought processes, personality, and mental
+        health.
+      </p>
+>>>>>>> 61561f22586afba57a0cda1d388c1949aa8e9a2b
       <div className="hero-images">
       <div className="column1">
         <img src={in01} alt="in01" />

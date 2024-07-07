@@ -1,64 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-  }
-  
-  /* Navigation bar image */
-  nav img {
-    height: 40px; /* Adjust height as needed */
-    width: auto; /* Maintain aspect ratio */
-  }
-  
-  /* Navigation bar list */
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  /* Navigation bar list items */
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  /* Navigation bar links */
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: lightgray;
-  }
-  
-  /* Button */
-  nav .buttonNav {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 20px;
-    cursor: pointer;
-  }
-  
-  nav .buttonNav:hover {
-    background-color: #f7f7f7;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
 
-  a {
-    text-decoration: none;
+/* Navigation bar image */
+nav img {
+  height: 40px; /* Adjust height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation bar list */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; /* Remove padding to align items properly */
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+/* Navigation bar list items */
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Navigation bar links */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: lightgray;
+}
+
+/* Button */
+nav .buttonNav {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav .buttonNav:hover {
+  background-color: #f7f7f7;
+  color: black; /* Ensure text color changes for visibility */
+}
+
+a {
+  text-decoration: none;
 }
 
 /* about */
