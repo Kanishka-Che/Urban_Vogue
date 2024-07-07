@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Home.css';
 import NavImg from '../../assets/Untitled.png';
 import in01 from '../../assets/in01.png';
@@ -9,8 +10,12 @@ import in05 from '../../assets/in05.png';
 import photo6 from '../../assets/p6.png';
 import photo7 from '../../assets/p7.png';
 import photo8 from '../../assets/p8.png';
+import p1 from '../../assets/in06.png';
+import p5 from '../../assets/in07.png';
+import p3 from '../../assets/in08.png';
 import pn from '../../assets/Untitled.png';
-import { NavLink } from 'react-router-dom';
+import p9 from '../../assets/p9.png';
+import p10 from '../../assets/p10.png';
 
 const Home = () => {
   return (
@@ -21,7 +26,7 @@ const Home = () => {
           <li><NavLink to="/">Home</NavLink></li>
           <li>About Us</li>
           <li>Services/Products</li>
-          <li>Contact Us</li>
+          <li><NavLink to="/Contact"><button className='batton02'>Contact Us</button></NavLink></li>
           <li><NavLink to="/login"><button className="buttonNav">Login</button></NavLink></li>
         </ul>
       </nav>
@@ -97,7 +102,7 @@ const Home = () => {
         <h2>Our Team</h2>
         <h1>The Leadership Team</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus, Class aptent taciti sociosqu ad litorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad li
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus, Class aptent taciti sociosqu ad litorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad li
         </p>
       </section>
 
@@ -138,7 +143,7 @@ const Home = () => {
           <div className="card">
             <img src={p5} alt="photo5" />
             <div>
-              <h3>We are committed</h3>
+              <h3>We deliver results</h3>
               <p>
                 Tetus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad l Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad l
               </p>
@@ -147,7 +152,7 @@ const Home = () => {
           <div className="card">
             <img src={p3} alt="photo3" />
             <div>
-              <h3>We are responsible</h3>
+              <h3>We are agile</h3>
               <p>
                 Tetus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad l Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad l
               </p>
@@ -156,38 +161,45 @@ const Home = () => {
         </div>
       </section>
 
-      <footer className="footer-info">
-        <div className="footer-left">
-          <img src={pn} alt="Untitled" />
-          <p className="p-wid">Social media validation business model canvas graphical user interface launch party creative Facebook iPad Twitter</p>
+      <section className="hero-end">
+        <img src={pn} alt="pn" />
+        <div className="end-cont">
+          <h2>What's Next</h2>
+          <h1>We believe in building strong partnerships</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad l Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad l
+          </p>
         </div>
-        <div className="footer-right">
-          <div>
-            <h2>Landings</h2>
-            <ul>
-              <li>Home</li>
-              <li>Products</li>
-              <li>Services</li>
-            </ul>
+      </section>
+
+      <section className="footer">
+        <h2>Our Numbers</h2>
+        <h1>Effective crowdfunding strategies, infographic design tips, handshake etiquette, and iterating for mass market success in fundraising campaigns.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, metus nec fringilla accumsan, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <div className="data">
+          <div className="data-first">
+            <h2 className="white">120m</h2>
+            <p>cool feature tiles</p>
           </div>
-          <div>
-            <h2>Company</h2>
-            <ul>
-              <li>Home</li>
-              <li>Products</li>
-              <li>Services</li>
-            </ul>
+          <div className="data-second">
+            <h2 className="white">10,000</h2>
+            <p>cool feature tiles</p>
           </div>
-          <div>
-            <h2>Resources</h2>
-            <ul>
-              <li>Home</li>
-              <li>Products</li>
-              <li>Services</li>
-            </ul>
+          <div className="data-third">
+            <h2 className="white">240</h2>
+            <p>cool feature tiles</p>
           </div>
         </div>
-      </footer>
+      </section>
+
+      <section className="hero-end">
+        <div className="last-pic">
+          <img src={p9} alt="p9" />
+        </div>
+        <div className="last-pic">
+          <img src={p10} alt="p10" />
+        </div>
+      </section>
     </div>
   );
 };
