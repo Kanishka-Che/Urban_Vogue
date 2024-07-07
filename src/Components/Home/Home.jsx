@@ -23,31 +23,55 @@ const Home = () => {
         </ul>
       </nav>
 
-
-
       {/* Features Section */}
       <section className="section features">
         <h1 className='heading'>Welcome to Urban Vogue!</h1>
         <h4 className='second'>We Love To Make Great Things, Things That Matter!</h4>
         <p className='welcome'>
-        Urban Vogue is your premier online destination for fashion-forward individuals seeking curated collections that blend contemporary trends with timeless elegance. Explore a diverse array of stylish apparel and accessories meticulously selected to elevate your wardrobe. Whether you're browsing for casual essentials or statement pieces, Urban Vogue offers a seamless shopping experience with a focus on quality, style, and customer satisfaction. Embrace your unique sense of fashion with Urban Vogue, where every click brings you closer to discovering your signature style.
+          Urban Vogue is your premier online destination for fashion-forward individuals seeking curated collections that blend contemporary trends with timeless elegance. Explore a diverse array of stylish apparel and accessories meticulously selected to elevate your wardrobe. Whether you're browsing for casual essentials or statement pieces, Urban Vogue offers a seamless shopping experience with a focus on quality, style, and customer satisfaction. Embrace your unique sense of fashion with Urban Vogue, where every click brings you closer to discovering your signature style.
         </p>
+        <h2 className='heading'>Featured Products</h2>
         <div className="hero-images">
-          <div className="column">
-            <img src={in01} alt="In01" />
-            <img src={in02} alt="In02" />
-          </div>
-          <div className="column">
-            <img src={in03} alt="In03" />
-          </div>
-          <div className="column">
-            <img src={in04} alt="In04" />
-            <img src={in05} alt="In05" />
+          <div className="row">
+            <div className="column">
+              <img src={in01} alt="In01" className="hover-image" />
+              <div className="product-info">
+                <p>Dress 1</p>
+                <p>$100</p>
+              </div>
+            </div>
+            <div className="column">
+              <img src={in02} alt="In02" className="hover-image1"/>
+              <div className="product-info">
+                <p>Dress 2</p>
+                <p>$150</p>
+              </div>
+            </div>
+            <div className="column">
+              <img src={in03} alt="In03" className="hover-image2"/>
+              <div className="product-info">
+                <p>Dress 3</p>
+                <p>$120</p>
+              </div>
+            </div>
+            <div className="column">
+              <img src={in04} alt="In04" className="hover-image3"/>
+              <div className="product-info">
+                <p>Dress 4</p>
+                <p>$130</p>
+              </div>
+            </div>
+            <div className="column">
+              <img src={in05} alt="In05" className="hover-image4"/>
+              <div className="product-info">
+                <p>Dress 5</p>
+                <p>$140</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-     
       {/* Footer */}
       <footer className="footer">
         <p>&copy; 2024 Urban Vogue. All rights reserved.</p>

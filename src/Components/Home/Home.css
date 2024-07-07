@@ -1,9 +1,5 @@
-/* Home.css */
-
 .home-container {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .nav-bar {
@@ -12,19 +8,26 @@
   align-items: center;
   padding: 10px 0;
 }
-.welcome{
+
+.welcome {
+  padding: 20px;
   font-size: smaller;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.heading{
+
+.heading {
+  padding: 20px;
   text-align: center;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-bottom: 40px;
 }
-.second{
+
+.second {
+  padding: 20px;
   padding-bottom: 25px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .nav-img {
   width: 100px;
 }
@@ -71,18 +74,6 @@
   margin-bottom: 40px;
 }
 
-.about-cont {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.about h4 {
-  font-size: 24px;
-  margin-top: 0;
-  color: #333;
-}
-
 .features h3 {
   font-size: 22px;
   margin-bottom: 10px;
@@ -109,274 +100,83 @@
 .hero-images {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap; 
   margin-bottom: 20px;
 }
 
+.hero-images .row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+}
+
+.hero-images .row .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px; 
+}
+
 .hero-images img {
-  max-width: 300px;
+  max-width: 200px;
   height: auto;
   padding: 10px;
+}
+
+.hero-images .hover-image {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image:hover {
+  content: url('../../assets/in02.png');
+}
+
+.hero-images .hover-image1 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image1:hover {
+  content: url('../../assets/in03.png');
+}
+
+.hero-images .hover-image2 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image2:hover {
+  content: url('../../assets/in04.png');
+}
+
+.hero-images .hover-image3 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image3:hover {
+  content: url('../../assets/in05.png');
+}
+
+.hero-images .hover-image4 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image4:hover {
+  content: url('../../assets/in01.png');
+}
+
+.product-info {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-}
-
-.button-read-more,
-.button-story {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-right: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.button-read-more:hover,
-.button-story:hover {
-  background-color: #555;
-}
-
-.our-story h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.our-story h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.our-story p {
-  font-size: 18px;
-  color: #666;
-  margin-bottom: 30px;
-}
-
-.our-numbers h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.our-numbers h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.our-numbers p {
-  font-size: 18px;
-  color: #666;
-  margin-bottom: 30px;
-}
-
-.data {
-  display: flex;
-  justify-content: space-between;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.data-card {
-  text-align: center;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  flex: 1;
-  margin: 0 10px;
-}
-
-.data-card h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.data-card p {
-  font-size: 18px;
-  color: #666;
-}
-
-.our-team h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.our-team h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.our-team p {
-  font-size: 18px;
-  color: #666;
-  margin-bottom: 30px;
-}
-
-.team-images {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.team-member {
-  text-align: center;
-}
-
-.team-member img {
-  max-width: 200px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.team-member h3 {
-  font-size: 24px;
-  margin-top: 0;
-  color: #333;
-}
-
-.team-member p {
-  font-size: 18px;
-  color: #666;
-}
-
-.call-to-action h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.call-to-action h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.call-to-action p {
-  font-size: 18px;
-  color: #666;
-  margin-bottom: 30px;
-}
-
-.card-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.card {
-  flex: 1;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  margin: 0 10px;
-}
-
-.card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.card h3 {
-  font-size: 24px;
-  margin-top: 0;
-  color: #333;
-}
-
-.card p {
-  font-size: 18px;
-  color: #666;
-}
-
-.testimonials h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.testimonial-cards {
-  display: flex;
-  justify-content: space-between;
-}
-
-.testimonial-card {
-  flex: 1;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  margin: 0 10px;
-  text-align: center;
-}
-
-.testimonial-card img {
-  max-width: 100px;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.testimonial-card p {
-  font-size: 18px;
-  color: #666;
-}
-
-.testimonial-card h4 {
-  font-size: 20px;
-  margin-top: 0;
-  color: #333;
-}
-
-.contact h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.contact form {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  font-size: 18px;
-  color: #333;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.form-group textarea {
-  resize: vertical;
-}
-
-.button-submit {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .button-submit:hover {
@@ -395,4 +195,3 @@
   color: #666;
   margin: 0;
 }
-
