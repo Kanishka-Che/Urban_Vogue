@@ -1,11 +1,11 @@
 import React from 'react'
 import './Home.css'
 import NavImg from '../../assets/Untitled.png'
-import photo1 from '../../assets/photo1.png'
-import photo2 from '../../assets/photo2.png'
-import photo3 from '../../assets/photo3.png'
-import photo4 from '../../assets/photo4.png'
-import photo5 from '../../assets/photo5.png'
+import in01 from '../../assets/in01.png'
+import in02 from '../../assets/in02.png'
+import in03 from '../../assets/in03.png'
+import in04 from '../../assets/in04.png'
+import in05 from '../../assets/in05.png'
 import photo6 from '../../assets/p6.png'
 import photo7 from '../../assets/p7.png'
 import photo8 from '../../assets/p8.png'
@@ -14,6 +14,8 @@ import p5 from '../../assets/photo5.png'
 import p3 from '../../assets/photo3.png'
 import pn from '../../assets/Untitled.png'
 import { NavLink } from 'react-router-dom'
+import home01 from '../../assets/home01.jpeg'
+
 const Home = () => {
   return (
     <div>
@@ -21,13 +23,27 @@ const Home = () => {
             <img src={NavImg}/>
             <ul>
                 <li><NavLink to="/">Home</NavLink></li>
-                <li>Products</li>
-                <li>Services</li>
-                <li>About</li>
+                <li>About Us</li>
+                <li>Services/Products</li>
+                <li>Contact Us</li>
                 <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
             </ul>
         </nav>
 
+<<<<<<< HEAD
+      <section className="about" > 
+        <div className='about-cont'>
+          <h3>About Us</h3>
+          <h4>Welcome to Urban Vogue </h4>
+          <h1>Celebrate sri lanka</h1>
+          <h2>FROM WHEREVER YOU ARE!</h2>
+          <p>
+             We Ship Worldwide
+          </p> 
+        </div>
+
+
+=======
       <section className="about">
       <h3>About</h3>
       <h4>Welcome to Urban Vouge!</h4>
@@ -38,17 +54,18 @@ const Home = () => {
         unravel the complexities of thought processes, personality, and mental
         health.
       </p>
+>>>>>>> 61561f22586afba57a0cda1d388c1949aa8e9a2b
       <div className="hero-images">
       <div className="column1">
-        <img src={photo1} alt="Photo 1" />
-        <img src={photo2} alt="Photo 2" />
+        <img src={in01} alt="in01" />
+        <img src={in02} alt="in02" />
       </div>
       <div className="column2">
-        <img src={photo3} alt="photo 3"/>
+        <img src={in03} alt="in03"/>
       </div>
       <div className="column3">
-        <img src={photo5} alt="Photo 5" />
-        <img src={photo4} alt="Photo 4" />
+        <img src={in04} alt="in04" />
+        <img src={in05} alt="in05" />
       </div>
       </div>
       
