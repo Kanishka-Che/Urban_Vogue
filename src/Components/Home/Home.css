@@ -1,216 +1,197 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-nav {
+.home-container {
+  margin: 0 auto;
+}
+
+.nav-bar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.welcome {
+  padding: 20px;
+  font-size: smaller;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 40px;
+}
+
+.second {
+  padding: 20px;
+  padding-bottom: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-img {
+  width: 100px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links a:hover {
+  color: #333;
+}
+
+.button-contact,
+.button-nav {
   background-color: #333;
   color: white;
-}
-
-/* Navigation bar image */
-nav img {
-  height: 40px; /* Adjust height as needed */
-  width: auto; /* Maintain aspect ratio */
-}
-
-/* Navigation bar list */
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; /* Remove padding to align items properly */
-  display: flex;
-  align-items: center; /* Align items vertically */
-}
-
-/* Navigation bar list items */
-nav ul li {
-  margin: 0 10px;
-}
-
-/* Navigation bar links */
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-  color: lightgray;
-}
-
-/* Button */
-nav .buttonNav {
-  background-color: #4CAF50; /* Green */
   border: none;
-  color: white;
   padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-nav .buttonNav:hover {
-  background-color: #f7f7f7;
-  color: black; /* Ensure text color changes for visibility */
+.button-contact:hover,
+.button-nav:hover {
+  background-color: #555;
 }
 
-a {
-  text-decoration: none;
+.section {
+  margin-bottom: 40px;
 }
 
-/* about */
-
-.about {
-  padding: 10px 20px; 
-    font-size: 20px;
-    padding: 50px;
-    margin: 20px;
-    padding: 100px;
-    background: url(E:\Urban_Vogue\src\assets\home01.jpeg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 50px ;
-    
+.features h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-.about-cont{
-    margin: 20px;
-    padding: 100px;
-    background: url(E:\Urban_Vogue\src\assets\home01.jpeg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px ;
-}
-h2{
-  font-size: 5rem;
-  font-family: "Baskervville SC", serif;
-}
-h1 {
-    font-size: 4rem;
-    font-family: "Dancing Script", cursive;
-}
-.about-cont,p {
-  padding: 10px;
-  height: 50px;
-  width:400px;
-  margin-top: 0%;
-  margin-left: 0%;
-  background-color: #f1d102;
-  border-radius: 200px;
-  font-size: 2rem;
-  font-style: italic;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  opacity: 1;
+.features h4 {
+  font-size: 28px;
+  margin-top: 0;
+  color: #333;
 }
 
+.features h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
 
-/* Styling the hero images section */
+.features p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
 .hero-images {
-    margin-top: 50px;
-    padding: 5px;
-    display: flex;
-    justify-content: space-around; /* Adjust as needed */
-    height: 50px;;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  margin-bottom: 20px;
 }
 
-/* Column styles */
-.column1,
-.column2,
-.column3,
-.column4 {
-    margin-top: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    width: 20%; /* Each column takes one-third of the width */
-    height: 700px; /* Adjust height as needed */
-    gap: 10px;
-
-    
+.hero-images .row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
 }
 
-.column1 img,
-.column2 img,
-.column3 img,
-.column4 img {
-    max-width: 100%; /* Ensure images fit within columns */
-    /* Adjust as needed */
-    top: 700px;
-   
-}
-.hero-images{
-    padding-top: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    
-}
-
-.our01{
-  padding-top: 100%;
+.hero-images .row .column {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 50px; 
+}
+
+.hero-images img {
+  max-width: 200px;
+  height: auto;
+  padding: 10px;
+}
+
+.hero-images .hover-image {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image:hover {
+  content: url('../../assets/in02.png');
+}
+
+.hero-images .hover-image1 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image1:hover {
+  content: url('../../assets/in03.png');
+}
+
+.hero-images .hover-image2 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image2:hover {
+  content: url('../../assets/in04.png');
+}
+
+.hero-images .hover-image3 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image3:hover {
+  content: url('../../assets/in05.png');
+}
+
+.hero-images .hover-image4 {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-images .hover-image4:hover {
+  content: url('../../assets/in01.png');
+}
+
+.product-info {
   text-align: center;
-}
-.Our-Story{
-  gap: 100px;
-  padding-top:0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.Our-Story01{
-  gap: 0px;
-  margin-top:0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-
-}
-.Our-Story02{
-  gap: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.our05{
-  font-weight:550;
-}
-.our03{
-  font-weight:550;
-}
-.our06{
-  gap:0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 10px;
 }
 
-.Our-map{
+.buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight:550;
+  justify-content: center;
+  margin-top: 20px;
 }
 
+.button-submit:hover {
+  background-color: #555;
+}
 
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #f4f4f4;
+}
 
+.footer p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
