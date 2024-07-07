@@ -1,20 +1,24 @@
 import React from 'react'
 import './Home.css'
 import NavImg from '../../assets/Untitled.png'
-import in01 from '../../assets/in01.png'
-import in02 from '../../assets/in02.png'
-import in03 from '../../assets/in03.png'
-import in04 from '../../assets/in04.png'
-import in05 from '../../assets/in05.png'
+import in01 from 'E:/Urban_Vogue/src/assets/in01.png'
+import in02 from 'E:/Urban_Vogue/src/assets/in02.png'
+import in03 from 'E:/Urban_Vogue/src/assets/in03.png'
+import in04 from 'E:/Urban_Vogue/src/assets/in04.png'
+import in05 from 'E:/Urban_Vogue/src/assets/in05.png'
+import in06 from 'E:/Urban_Vogue/src/assets/in06.png'
+import in07 from 'E:/Urban_Vogue/src/assets/in07.png'
 import photo6 from '../../assets/p6.png'
 import photo7 from '../../assets/p7.png'
 import photo8 from '../../assets/p8.png'
-import p1 from '../../assets/photo1.png'
-import p5 from '../../assets/photo5.png'
-import p3 from '../../assets/photo3.png'
+import p1 from '../../assets/in06.png'
+import p5 from '../../assets/in07.png'
+import p3 from '../../assets/in08.png'
 import pn from '../../assets/Untitled.png'
+import p9 from 'E:/Urban_Vogue/src/assets/p9.png'
+import p10 from 'E:/Urban_Vogue/src/assets/p10.png'
 import { NavLink } from 'react-router-dom'
-import home01 from '../../assets/home01.jpeg'
+
 
 const Home = () => {
   return (
@@ -25,188 +29,90 @@ const Home = () => {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li>About Us</li>
                 <li>Services/Products</li>
-                <li>Contact Us</li>
+
+                <li><NavLink to="/Contact"><button className='batton02'></button>Contact Us</NavLink></li>
+
                 <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
             </ul>
         </nav>
 
-<<<<<<< HEAD
-      <section className="about" > 
-        <div className='about-cont'>
-          <h3>About Us</h3>
-          <h4>Welcome to Urban Vogue </h4>
-          <h1>Celebrate sri lanka</h1>
-          <h2>FROM WHEREVER YOU ARE!</h2>
-          <p>
-             We Ship Worldwide
-          </p> 
-        </div>
-
-
-=======
       <section className="about">
-      <h3>About</h3>
-      <h4>Welcome to Urban Vouge!</h4>
-      <h1>We Love To Make Great Things, Things That Matter</h1>
-      <p>
-        In psychological exploration, understanding human behavior involves delving
-        into cognition, emotions, and motivations. Through research, psychologists
-        unravel the complexities of thought processes, personality, and mental
-        health.
-      </p>
->>>>>>> 61561f22586afba57a0cda1d388c1949aa8e9a2b
+         <h3>About Us</h3>
+         <h4>Welcome to Urban Vogue </h4>
+         <h1>Celebrate sri lanka</h1>
+         <h2>FROM WHEREVER YOU ARE!</h2>
+         <p>
+             We Ship Worldwide
+         </p>
+      </section>
+
+
+
       <div className="hero-images">
       <div className="column1">
-        <img src={in01} alt="in01" />
-        <img src={in02} alt="in02" />
+        <img src={in01} alt="in01.png"/>
+        <img src={in02} alt="in02.png"/>
+        <img src={in01} alt="in01.png"/>
+        <img src={in02} alt="in02.png"/>
       </div>
       <div className="column2">
-        <img src={in03} alt="in03"/>
+        <img src={in03} alt="in03.png"/>
+        <img src={in04} alt="in04.png"/>
+        <img src={in01} alt="in01.png"/>
+        <img src={in02} alt="in02.png"/>
       </div>
       <div className="column3">
-        <img src={in04} alt="in04" />
-        <img src={in05} alt="in05" />
+        
+        <img src={in04} alt="in04.png"/>
+        <img src={in05} alt="in05.png"/>
+        <img src={in01} alt="in01.png"/>
+        <img src={in02} alt="in02.png"/>
+      </div>
+      <div className="column4">
+        
+        <img src={in06} alt="in06.png"/>
+        <img src={in07} alt="in07.png"/>
+        <img src={in01} alt="in01.png"/>
+        <img src={in02} alt="in02.png"/>
       </div>
       </div>
       
-      </section>
       
-      <section className="Our-Story">
-          <h2>Our Story</h2>
-          <h1>Infographics in mass market crowdfunding iterate for clarity, engaging backers with dynamic visuals, refining messaging for optimal campaign success.</h1>
+      
+      <section className='Our-Story'>
+      <h2 className='our01'>Our Story</h2>
 
-          <p className="our-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad li
-          </p>
-          <div className="buttons">
-          <button>Read More</button>
-          <button className="button_story">Our Story</button>
-          </div>
-      </section>
-
-      <section className="Our-number">
-          <h2>Our numbers</h2>
-          <h1>"Effective crowdfunding strategies, infographic design tips, handshake etiquette, and iterating for mass market success in fundraising campaigns." </h1>
-
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, metus nec fringilla accumsan, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."</p>
-
-          <div className="data" >
-              <div className="data-first">
-                <h2 className="white">120m</h2> 
-                <p>cool feature tiles</p>
-              </div>
-              <div className="data-second">
-                  <h2 className="white">10,000</h2> 
-                  <p>cool feature tiles</p>
-              </div>
-              <div className="data-theard">
-                  <h2 className="white">240</h2> 
-                  <p>cool feature tiles</p>
-              </div>
-          </div>
-      </section>
-
-      <section class="Our-team">
-        <h2>Our team</h2>
-        <h1>The Leadership team</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum volit, sit amet feugiat lectus, Class aptent taciti sociosqu ad litorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tollus. Sed dignissim, metus nec fringilla accumsan, risus sem sndows nterdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad li 
-        </p>
-       
-     </section>
-
-     <div className="image-section">
-        <div className="p6">
-          <img src={photo6} alt='p6.png'/>
+      <div className="Our-Story01">
+      <div className='our02'>
+          <img src={p9} alt="p9.png"/>
+        </div>
           
-          <h3>Kanishka</h3>
-          <p>General Manager</p>
+         <div className='our03'>
+         <h1>Delivery & Exchange</h1>
+         <p1>Enjoy easy delivery Island-wide & hassle-free exchanges.</p1> 
+         </div>
+         </div>
+
+
+         <div className="Our-Story02">
+         <div className='our04'>
+          <img src={p10} alt="p10.png"/>
         </div>
+          
+         <div className='our05'>
+         <h1>Gift Vouchers</h1>
+         <p1>Surprise your loved ones with the gift of fashion!</p1> 
+         </div>
+         </div>
+
+
+        
          
-        <div className="p7">
-        <img src={photo7} alt='p7.png'/>
-          <h3>Umesh Bandara</h3>
-          <p>General Manager</p>
-        </div>
 
-        <div className="p8">
-        <img src={photo8} alt='p8.png'/>
-          <h3>Chethana</h3>
-          <p>General Manager</p>
-        </div>
-     </div>
-     <section className="data-cards">
-        <h2>Our team</h2>
-        <h1>the leadership team</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestia, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin locus, ut interdum tallus allt sed risus. Maecenas eget condimentum velit, sit amet feugiat lactus. Class aptent taciti sociosqu ad llLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a mattis talus. Sed dignissim, metus nec fringilla accumsan, risus son sollicitudin lacus, ut interdum tellus allt sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad li
-        </p>
-        <div className="card-container">
-            <div className="card">
-                <img src={p1} alt="photo1.png"/>
-                <div>
-                    <h3 >We are commited</h3>
-                <p>
-                    tetus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut Interdum tellus oilt sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus Closs aptent taciti socio
-                </p>
-                </div>
-                
-
-                
-            </div>
-            <div className="card">
-                <img src={p5} alt='photo5.png'/>
-                <div>
-                    <h3>We are commited</h3>
-                <p>
-                    tetus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut Interdum tellus oilt sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus Closs aptent taciti socio
-
-                </p>
-                </div>
-            </div>
-            <div className="card">
-                <img src={p3} alt='photo3.png'/>
-                <div>
-                    <h3>We are responsible</h3>
-                <p>
-                    tetus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut Interdum tellus oilt sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus Closs aptent taciti socio
-                </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <footer className="footer-info">
-      <div className="footer-left">
-        <img src={pn} alt="Untitled.png" />
-        <p className="p-wid">Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter</p>
-      </div>
-      <div className="footer-right">
-        <div>
-          <h2>Landings</h2>
-          <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Services</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Company</h2>
-          <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Services</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Resources</h2>
-          <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Services</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+         
+       
+            
+      </section>
 
 
 
