@@ -14,7 +14,7 @@ const Contact = () => {
                 <li>About Us</li>
                 <li>Services/Products</li>
 
-                <li><NavLink  to="/Contact"><button className='batton02'></button>Contact Us</NavLink></li>
+                <li><NavLink  to="/Contact"><button className='buttonNav'></button>Contact Us</NavLink></li>
 
                 <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
             </ul>

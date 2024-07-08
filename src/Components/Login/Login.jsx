@@ -8,17 +8,17 @@ const Login = () => {
   return (
     <div className="" >
         <nav>
-            <img src={NavImg}/>
-            <ul>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li>About Us</li>
-                <li>Services/Products</li>
-
-                <li><NavLink to="/Contact"><button className='batton02'></button>Contact Us</NavLink></li>
-
-                <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
-            </ul>
-        </nav>
+              <img src={NavImg}/>
+              <ul>
+                  <li><NavLink to="/">Home</NavLink></li>
+                  <li><NavLink to="/About"><button className='batton03'></button>About Us</NavLink></li>
+                  <li>Services/Products</li>
+  
+                  <li><NavLink to="/Contact"><button className='buttonNav'></button>Contact Us</NavLink></li>
+  
+                  <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
+              </ul>
+          </nav>
         <div className='login-page'>
 
 
@@ -40,7 +40,7 @@ const Login = () => {
                     <a href="#">Forgot password</a>
                  </div>
 
-                 <button type='submit'>Login</button>
+                 <button className='batton01' type='submit'>Login</button>
                  
                  <div className='register-acc'>
                     <p3>Don't have an account? <a href='#'>Register</a></p3>
