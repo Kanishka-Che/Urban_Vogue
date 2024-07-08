@@ -3,21 +3,22 @@ import './Login.css'
 import NavImg from '../../assets/Untitled.png'
 import { NavLink } from 'react-router-dom'
 
-
+//yfguhhhj
 const Login = () => {
   return (
     <div className="" >
-         {/* Navigation */}
-      <nav className="nav-bar">
-        <img src={NavImg} alt="Navigation" className="nav-img" />
-        <ul className="nav-links">
-          <li><NavLink to="/"><button className="button-contact">Home</button></NavLink></li>
-          <li><button className="button-contact">About Us</button></li>
-          <li><button className="button-contact">Services/Products</button></li>
-          <li><NavLink to="/Contact"><button className="button-contact">Contact Us</button></NavLink></li>
-          <li><NavLink to="/login"><button className="button-nav">Login</button></NavLink></li>
-        </ul>
-      </nav>
+        <nav>
+              <img src={NavImg}/>
+              <ul>
+                  <li><NavLink to="/">Home</NavLink></li>
+                  <li><NavLink to="/About"><button className='batton03'></button>About Us</NavLink></li>
+                  <li>Services/Products</li>
+  
+                  <li><NavLink to="/Contact"><button className='buttonNav'></button>Contact Us</NavLink></li>
+  
+                  <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
+              </ul>
+          </nav>
         <div className='login-page'>
 
 
@@ -39,7 +40,7 @@ const Login = () => {
                     <a href="#">Forgot password</a>
                  </div>
 
-                 <button type='submit'>Login</button>
+                 <button className='batton01' type='submit'>Login</button>
                  
                  <div className='register-acc'>
                     <p3>Don't have an account? <a href='#'>Register</a></p3>
