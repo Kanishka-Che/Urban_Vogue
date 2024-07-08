@@ -1,0 +1,152 @@
+.about {
+    padding: 10px 20px; 
+      font-size: 20px;
+      padding: 50px;
+      margin: 20px;
+      padding: 100px;
+      background: url(E:\Urban_Vogue\src\assets\home01.jpeg);
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 50px ;
+      
+  }
+
+/* Home.css */
+  
+  h2{
+    font-size: 5rem;
+    font-family: "Baskervville SC", serif;
+  }
+  h1 {
+      font-size: 4rem;
+      font-family: "Dancing Script", cursive;
+  }
+  .about-cont,p {
+    padding: 10px;
+    height: 30px;
+    width:400px;
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: #f1d102;
+    border-radius: 200px;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+  }
+  
+  
+  /* Styling the hero images section */
+  .hero-images {
+      margin-top: 50px;
+      padding: 5px;
+      display: flex;
+      justify-content: space-around; /* Adjust as needed */
+      height: 50px;;
+  }
+  
+  /* Column styles */
+  .column1,
+  .column2,
+  .column3,
+  .column4 {
+      margin-top: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center items horizontally */
+      justify-content: center; /* Center items vertically */
+      width: 20%; /* Each column takes one-third of the width */
+      height: 700px; /* Adjust height as needed */
+      gap: 10px;
+  
+      
+  }
+  
+  .column1 img,
+  .column2 img,
+  .column3 img,
+  .column4 img {
+      max-width: 100%; /* Ensure images fit within columns */
+      /* Adjust as needed */
+      top: 700px;
+     
+  }
+  .hero-images{
+      padding-top: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      
+  }
+  
+  .our01{
+    padding-top: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Our-Story{
+    gap: 100px;
+    padding-top:0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Our-Story01{
+    gap: 0px;
+    margin-top:0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  
+  }
+  .Our-Story02{
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our05{
+    font-weight:550;
+  }
+  .our03{
+    font-weight:550;
+  }
+  .our06{
+    gap:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-section {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .p6, .p7, .p8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items horizontally */
+    text-align: center; /* Align text center */
+    margin: 0 20px; /* Add some margin between items */
+  }
+  
+  .p6 img, .p7 img, .p8 img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .p4{
+    font: weight 790px;
+    font-style: italic;
+  }
+  

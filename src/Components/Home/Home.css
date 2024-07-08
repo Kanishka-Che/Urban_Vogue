@@ -1,197 +1,65 @@
-.home-container {
-  margin: 0 auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Home.css */
+/* Home.css */
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
-}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav img {
+    width: 100px;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .buttonNav,
+  .batton02,
+  .batton03 {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .buttonNav:hover,
+  .batton02:hover,
+  .batton03:hover {
+    background-color: #777;
+  }
+  
+  .batton03,
+  .batton02 {
+    margin-right: 0.5rem;
+  }
+  
 
-.welcome {
-  padding: 20px;
-  font-size: smaller;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
-.heading {
-  padding: 20px;
-  text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding-bottom: 40px;
-}
 
-.second {
-  padding: 20px;
-  padding-bottom: 25px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.nav-img {
-  width: 100px;
-}
-
-.nav-links {
-  display: flex;
-  list-style-type: none;
-}
-
-.nav-links li {
-  margin-right: 20px;
-  font-size: 18px;
-}
-
-.nav-links li:last-child {
-  margin-right: 0;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-}
-
-.nav-links a:hover {
-  color: #333;
-}
-
-.button-contact,
-.button-nav {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.button-contact:hover,
-.button-nav:hover {
-  background-color: #555;
-}
-
-.section {
-  margin-bottom: 40px;
-}
-
-.features h3 {
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-
-.features h4 {
-  font-size: 28px;
-  margin-top: 0;
-  color: #333;
-}
-
-.features h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.features p {
-  font-size: 18px;
-  color: #666;
-  margin-bottom: 30px;
-}
-
-.hero-images {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; 
-  margin-bottom: 20px;
-}
-
-.hero-images .row {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
-}
-
-.hero-images .row .column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px; 
-}
-
-.hero-images img {
-  max-width: 200px;
-  height: auto;
-  padding: 10px;
-}
-
-.hero-images .hover-image {
-  position: relative;
-  z-index: 1;
-}
-
-.hero-images .hover-image:hover {
-  content: url('../../assets/in02.png');
-}
-
-.hero-images .hover-image1 {
-  position: relative;
-  z-index: 1;
-}
-
-.hero-images .hover-image1:hover {
-  content: url('../../assets/in03.png');
-}
-
-.hero-images .hover-image2 {
-  position: relative;
-  z-index: 1;
-}
-
-.hero-images .hover-image2:hover {
-  content: url('../../assets/in04.png');
-}
-
-.hero-images .hover-image3 {
-  position: relative;
-  z-index: 1;
-}
-
-.hero-images .hover-image3:hover {
-  content: url('../../assets/in05.png');
-}
-
-.hero-images .hover-image4 {
-  position: relative;
-  z-index: 1;
-}
-
-.hero-images .hover-image4:hover {
-  content: url('../../assets/in01.png');
-}
-
-.product-info {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.button-submit:hover {
-  background-color: #555;
-}
-
-.footer {
-  text-align: center;
-  margin-top: 40px;
-  padding: 20px 0;
-  background-color: #f4f4f4;
-}
-
-.footer p {
-  font-size: 14px;
-  color: #666;
-  margin: 0;
-}
