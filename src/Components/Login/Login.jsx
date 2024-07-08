@@ -7,18 +7,17 @@ import { NavLink } from 'react-router-dom'
 const Login = () => {
   return (
     <div className="" >
-        <nav>
-            <img src={NavImg}/>
-            <ul>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li>About Us</li>
-                <li>Services/Products</li>
-
-                <li><NavLink to="/Contact"><button className='batton02'></button>Contact Us</NavLink></li>
-
-                <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
-            </ul>
-        </nav>
+         {/* Navigation */}
+      <nav className="nav-bar">
+        <img src={NavImg} alt="Navigation" className="nav-img" />
+        <ul className="nav-links">
+          <li><NavLink to="/"><button className="button-contact">Home</button></NavLink></li>
+          <li><button className="button-contact">About Us</button></li>
+          <li><button className="button-contact">Services/Products</button></li>
+          <li><NavLink to="/Contact"><button className="button-contact">Contact Us</button></NavLink></li>
+          <li><NavLink to="/login"><button className="button-nav">Login</button></NavLink></li>
+        </ul>
+      </nav>
         <div className='login-page'>
 
 
