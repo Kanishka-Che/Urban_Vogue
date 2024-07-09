@@ -1,9 +1,6 @@
-.about {
-    padding: 10px 20px; 
+
+  .about {
       font-size: 20px;
-      padding: 50px;
-      margin: 20px;
-      padding: 100px;
       background: url(E:\Urban_Vogue\src\assets\home01.jpeg);
       background-size: cover;
       width: 100%;
@@ -142,7 +139,7 @@
   }
   
   .p6 img, .p7 img, .p8 img {
-    max-width: 100%; /* Ensure images don't exceed their container */
+    max-width: 40%; /* Ensure images don't exceed their container */
     height: auto; /* Maintain aspect ratio */
   }
   .p4{

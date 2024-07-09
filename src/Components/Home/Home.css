@@ -1,65 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* Home.css */
-/* Home.css */
+
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #333;
-    padding: 1rem;
-  }
-  
-  nav img {
-    width: 100px;
-    height: auto;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    margin: 0 1rem;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .buttonNav,
-  .batton02,
-  .batton03 {
-    background-color: #555;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
-  }
-  
-  .buttonNav:hover,
-  .batton02:hover,
-  .batton03:hover {
-    background-color: #777;
-  }
-  
-  .batton03,
-  .batton02 {
-    margin-right: 0.5rem;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2e2a2a;
+  padding: 1rem;
+}
 
+nav img {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: rgb(254, 254, 254);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+
+
+.buttonNav
+{
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.buttonNav:hover
+{
+  background-color: #777;
+  
+}
+
+
+  
 
 
