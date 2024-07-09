@@ -1,13 +1,12 @@
 import React from 'react'
-import './Home.css'
-import NavImg from '../../assets/Untitled.png'
+import './Services.css'
 import { NavLink } from 'react-router-dom'
+import NavImg from '../../assets/Untitled.png'
 
-
-const Home = () => {
-  return (
-    <div>
-         <nav>
+const Services = () => {
+    return (
+      <div>
+          <nav>
               <img src={NavImg}/>
               <ul>
               <li><NavLink to="/">Home</NavLink></li>
@@ -21,9 +20,8 @@ const Home = () => {
           </nav>
 
 
-
- </div>
-  )
+       </div>
+       
+    )
 }
-
-export default Home;
+export default Services     
