@@ -36,35 +36,35 @@ const Home = () => {
             <div className="column">
               <img src={in01} alt="In01" className="hover-image" />
               <div className="product-info">
-                <p>Dress 1</p>
+                <p>Dress Name 1</p>
                 <p>$100</p>
               </div>
             </div>
             <div className="column">
               <img src={in02} alt="In02" className="hover-image1"/>
               <div className="product-info">
-                <p>Dress 2</p>
+                <p>Dress Name 2</p>
                 <p>$150</p>
               </div>
             </div>
             <div className="column">
               <img src={in03} alt="In03" className="hover-image2"/>
               <div className="product-info">
-                <p>Dress 3</p>
+                <p>Dress Name 3</p>
                 <p>$120</p>
               </div>
             </div>
             <div className="column">
               <img src={in04} alt="In04" className="hover-image3"/>
               <div className="product-info">
-                <p>Dress 4</p>
+                <p>Dress Name 4</p>
                 <p>$130</p>
               </div>
             </div>
             <div className="column">
               <img src={in05} alt="In05" className="hover-image4"/>
               <div className="product-info">
-                <p>Dress 5</p>
+                <p>Dress Name 5</p>
                 <p>$140</p>
               </div>
             </div>

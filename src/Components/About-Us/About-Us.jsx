@@ -1,18 +1,18 @@
 import React from 'react'
 import './About-Us.css'
 import NavImg from '../../assets/Untitled.png'
-import in01 from 'E:/Urban_Vogue/src/assets/in01.png'
-import in02 from 'E:/Urban_Vogue/src/assets/in02.png'
-import in03 from 'E:/Urban_Vogue/src/assets/in03.png'
-import in04 from 'E:/Urban_Vogue/src/assets/in04.png'
-import in05 from 'E:/Urban_Vogue/src/assets/in05.png'
-import in06 from 'E:/Urban_Vogue/src/assets/in06.png'
-import in07 from 'E:/Urban_Vogue/src/assets/in07.png'
-import photo6 from 'E:/Urban_Vogue/src/assets/people03.jpg'
-import photo7 from 'E:/Urban_Vogue/src/assets/people03.jpg'
-import photo8 from 'E:/Urban_Vogue/src/assets/people03.jpg'
-import p9 from 'E:/Urban_Vogue/src/assets/p9.png'
-import p10 from 'E:/Urban_Vogue/src/assets/p10.png'
+import in01 from '../../assets/in01.png';
+import in02 from '../../assets/in02.png';
+import in03 from '../../assets/in03.png';
+import in04 from '../../assets/in04.png';
+import in05 from '../../assets/in05.png';
+import in06 from '../../assets/in06.png';
+import in07 from '../../assets/in07.png';
+import photo6 from 'D:/Urban_Vogue/src/assets/people01.jpg'
+import photo7 from 'D:/Urban_Vogue/src/assets/people03.jpg'
+import photo8 from 'D:/Urban_Vogue/src/assets/people03.jpg'
+import p9 from 'D:/Urban_Vogue/src/assets/p9.png'
+import p10 from 'D:/Urban_Vogue/src/assets/p10.png'
 import { NavLink } from 'react-router-dom'
 
 const About = () => {
