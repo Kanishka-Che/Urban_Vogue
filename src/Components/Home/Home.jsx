@@ -10,6 +10,7 @@ import in05 from '../../assets/in05.png';
 
 const Home = () => {
   return (
+
     <div className="home-container">
       {/* Navigation */}
       <nav className="nav-bar">
@@ -22,6 +23,22 @@ const Home = () => {
           <li><NavLink to="/login"><button className="button-nav">Login</button></NavLink></li>
         </ul>
       </nav>
+
+    <div>
+         <nav>
+              <img src={NavImg}/>
+              <ul>
+              <li><NavLink to="/">Home</NavLink></li>
+                  <li><NavLink to="/About">About Us</NavLink></li>
+                  <li><NavLink to="/Services">Services/Products</NavLink></li>
+  
+                  <li><NavLink to="/Contact">Contact Us</NavLink></li>
+  
+                  <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
+              </ul>
+          </nav>
+
+
 
       {/* Features Section */}
       <section className="section features">
