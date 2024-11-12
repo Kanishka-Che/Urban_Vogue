@@ -4,7 +4,8 @@ import Home from './Components/Home/Home'
 import Login from './Components/Login/Login'
 import Contact from './Components/Contact-Us/Contact-Us'
 import About from './Components/About-Us/About-Us'
-import Services from 'E:/Urban_Vogue/src/Components/Services/Services.jsx'
+import Services from './Components/Services/Services';
+
 
 
 function App() {
@@ -18,7 +19,6 @@ function App() {
           <Route path='/Contact' element={<Contact/>}/>
           <Route path='/About' element={<About/>}/>
           <Route path='/Services' element={<Services/>}/>
-
         </Routes>
       </BrowserRouter>
     </div>
