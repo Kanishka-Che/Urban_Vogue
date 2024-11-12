@@ -8,37 +8,21 @@ import in03 from '../../assets/in03.png';
 import in04 from '../../assets/in04.png';
 import in05 from '../../assets/in05.png';
 
+
 const Home = () => {
   return (
-
     <div className="home-container">
       {/* Navigation */}
       <nav className="nav-bar">
         <img src={NavImg} alt="Navigation" className="nav-img" />
         <ul className="nav-links">
           <li><NavLink to="/" className="nav-link">Home</NavLink></li>
-          <li><button className="nav-link">About Us</button></li>
-          <li><button className="nav-link">Services/Products</button></li>
+          <li><NavLink to="/About" className="nav-link">About Us</NavLink></li>
+          <li><NavLink to="/Services" className="nav-link">Services/Products</NavLink></li>
           <li><NavLink to="/Contact" className="nav-link">Contact Us</NavLink></li>
           <li><NavLink to="/login" className="button-nav">Login</NavLink></li>
         </ul>
       </nav>
-
-    <div>
-         <nav>
-              <img src={NavImg}/>
-              <ul>
-              <li><NavLink to="/">Home</NavLink></li>
-                  <li><NavLink to="/About">About Us</NavLink></li>
-                  <li><NavLink to="/Services">Services/Products</NavLink></li>
-  
-                  <li><NavLink to="/Contact">Contact Us</NavLink></li>
-  
-                  <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
-              </ul>
-          </nav>
-
-
 
       {/* Features Section */}
       <section className="section features">
