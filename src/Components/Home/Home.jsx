@@ -31,6 +31,7 @@ const Home = () => {
         <p className="welcome-text">
           Urban Vogue is your premier online destination for fashion-forward individuals seeking curated collections that blend contemporary trends with timeless elegance. Explore a diverse array of stylish apparel and accessories to elevate your wardrobe.
         </p>
+        <br></br>
         <h2 className="heading">Featured Products</h2>
         <div className="product-gallery">
           {[in01, in02, in03, in04, in05].map((image, index) => (
