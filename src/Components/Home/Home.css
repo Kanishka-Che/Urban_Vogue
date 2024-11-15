@@ -86,8 +86,7 @@
   text-align: center;
 }
 
-.product-image {
-  width: 100%;
+.product-image {npm 
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s ease;
