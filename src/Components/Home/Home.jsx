@@ -11,17 +11,7 @@ import in05 from '../../assets/in05.png';
 const Home = () => {
   return (
     <div className="home-container">
-      {/* Navigation */}
-      <nav className="nav-bar">
-        <img src={NavImg} alt="Navigation" className="nav-img" />
-        <ul className="nav-links">
-          <li><NavLink to="/" className="nav-link">Home</NavLink></li>
-          <li><NavLink to="/About" className="nav-link">About Us</NavLink></li>
-          <li><NavLink to="/Services" className="nav-link">Services/Products</NavLink></li>
-          <li><NavLink to="/Contact" className="nav-link">Contact Us</NavLink></li>
-          <li><NavLink to="/login" className="button-nav">Login</NavLink></li>
-        </ul>
-      </nav>
+      
 
       {/* Features Section */}
       <section className="section features">
