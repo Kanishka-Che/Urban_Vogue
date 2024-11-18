@@ -35,9 +35,19 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="footer">
-        <p>&copy; 2024 Urban Vogue. All rights reserved.</p>
-      </footer>
+<footer className="footer">
+  <div className="footer-content">
+    <p>&copy; 2024 Urban Vogue. All rights reserved.</p>
+    <ul className="footer-links">
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="/privacy-policy">Privacy Policy</a></li>
+    </ul>
+    <p className="footer-credit">Designed with ❤️ by Urban Vogue Team</p>
+  </div>
+</footer>
+
     </div>
   );
 };
