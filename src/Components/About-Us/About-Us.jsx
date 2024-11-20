@@ -1,78 +1,14 @@
 import React from 'react'
 import './About-Us.css'
-import NavImg from '../../assets/Untitled.png'
-import in01 from '../../assets/in01.png';
-import in02 from '../../assets/in02.png';
-import in03 from '../../assets/in03.png';
-import in04 from '../../assets/in04.png';
-import in05 from '../../assets/in05.png';
-import in06 from '../../assets/in06.png';
-import in07 from '../../assets/in07.png';
 import photo6 from 'D:/Urban_Vogue/src/assets/people01.jpg'
 import photo7 from 'D:/Urban_Vogue/src/assets/people03.jpg'
 import photo8 from 'D:/Urban_Vogue/src/assets/people03.jpg'
 import p9 from 'D:/Urban_Vogue/src/assets/p9.png'
 import p10 from 'D:/Urban_Vogue/src/assets/p10.png'
-import { NavLink } from 'react-router-dom'
 
 const About = () => {
     return (
       <div>
-          <nav>
-              <img src={NavImg}/>
-              <ul>
-              <li><NavLink to="/">Home</NavLink></li>
-                  <li><NavLink to="/About">About Us</NavLink></li>
-                  <li><NavLink to="/Services">Services/Products</NavLink></li>
-  
-                  <li><NavLink to="/Contact">Contact Us</NavLink></li>
-  
-                  <li><NavLink to="/login"><button className="buttonNav" >Login</button></NavLink></li>
-              </ul>
-          </nav>
-  
-        <section className="about">
-           <h3>About Us</h3>
-           <h4>Welcome to Urban Vogue </h4>
-           <h1>Celebrate sri lanka</h1>
-           <h2>FROM WHEREVER YOU ARE!</h2>
-           <p>
-               We Ship Worldwide
-           </p>
-        </section>
-  
-  
-  
-        <div className="hero-images">
-        <div className="column1">
-          <img src={in01} alt="in01.png"/>
-          <img src={in02} alt="in02.png"/>
-          <img src={in01} alt="in01.png"/>
-          <img src={in02} alt="in02.png"/>
-        </div>
-        <div className="column2">
-          <img src={in03} alt="in03.png"/>
-          <img src={in04} alt="in04.png"/>
-          <img src={in01} alt="in01.png"/>
-          <img src={in02} alt="in02.png"/>
-        </div>
-        <div className="column3">
-          
-          <img src={in04} alt="in04.png"/>
-          <img src={in05} alt="in05.png"/>
-          <img src={in01} alt="in01.png"/>
-          <img src={in02} alt="in02.png"/>
-        </div>
-        <div className="column4">
-          
-          <img src={in06} alt="in06.png"/>
-          <img src={in07} alt="in07.png"/>
-          <img src={in01} alt="in01.png"/>
-          <img src={in02} alt="in02.png"/>
-        </div>
-        </div>
-        
-        
         
         <section className='Our-Story'>
         <h2 className='our01'>Our Story</h2>

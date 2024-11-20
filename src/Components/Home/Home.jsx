@@ -1,7 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import './Home.css';
-import NavImg from '../../assets/Untitled.png';
 import in01 from '../../assets/in01.png';
 import in02 from '../../assets/in02.png';
 import in03 from '../../assets/in03.png';
