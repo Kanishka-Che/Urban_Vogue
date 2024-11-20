@@ -10,7 +10,6 @@
       align-items: center;
       text-align: center;
       gap: 50px ;
-      
   }
 
 /* Home.css */
@@ -40,15 +39,6 @@
   }
   
   
-  /* Styling the hero images section */
-  .hero-images {
-      margin-top: 50px;
-      padding: 5px;
-      display: flex;
-      justify-content: space-around; /* Adjust as needed */
-      height: 50px;;
-  }
-  
   /* Column styles */
   .column1,
   .column2,
@@ -75,30 +65,20 @@
       top: 700px;
      
   }
-  .hero-images{
-      padding-top: 40%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      
-  }
   
   .our01{
-    padding-top: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
   .Our-Story{
-    gap: 100px;
     padding-top:0%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .Our-Story01{
-    gap: 0px;
+    gap: 10px;
     margin-top:0%;
     display: flex;
     flex-direction: column;
