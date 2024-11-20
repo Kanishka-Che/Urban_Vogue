@@ -12,15 +12,11 @@
       gap: 50px ;
   }
 
-/* Home.css */
-  
   h2{
     font-size: 5rem;
-    font-family: "Baskervville SC", serif;
   }
   h1 {
       font-size: 4rem;
-      font-family: "Dancing Script", cursive;
   }
   .about-cont,p {
     padding: 10px;
