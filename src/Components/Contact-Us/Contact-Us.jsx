@@ -16,6 +16,8 @@ const Contact = () => {
          <p2>Sinharaja-06, Sinharaja boys hostel complex, Sabaragamuwa University Of Sri Lanka | 0752470438 </p2>
          </div>
     </div>
+
+
     )
 }
 export default Contact
