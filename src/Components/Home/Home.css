@@ -1,6 +1,7 @@
 /* Container */
 .home-container {
-  max-width: auto;
+  max-width: 1200px; /* Set a max width for proper scaling */
+  margin: 0 auto; /* Center the container */
   padding: 20px;
 }
 
@@ -8,6 +9,7 @@
 .section {
   text-align: center;
   margin-top: 40px;
+  padding: 0 20px; /* Add padding for better spacing on smaller screens */
 }
 
 .heading, .subheading {
@@ -17,11 +19,13 @@
 
 .heading {
   font-size: 36px;
+  line-height: 1.2; /* Improve readability */
 }
 
 .subheading {
   font-size: 22px;
   color: #333;
+  line-height: 1.4;
 }
 
 .welcome-text {
@@ -29,6 +33,7 @@
   color: #555;
   max-width: 800px;
   margin: 0 auto 30px;
+  line-height: 1.6; /* Improve readability */
 }
 
 /* Product Gallery */
@@ -40,19 +45,45 @@
 }
 
 .product-card {
-  width: 180px;
+  width: 200px; /* Slightly larger for better display */
   text-align: center;
+  position: relative;
+  background-color: #f9f9f9; /* Add a background for contrast */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .product-image {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: transform 0.3s ease;
+  display: block;
 }
 
 .product-image:hover {
   transform: scale(1.05);
+}
+
+.product-text {
+  position: absolute;
+  top: 10px; /* Adjusted for better spacing */
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background for better readability */
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  z-index: 1;
 }
 
 .product-info {
@@ -60,7 +91,8 @@
   font-size: 16px;
   color: #333;
 }
-/* Footer Container */
+
+/* Footer */
 .footer {
   text-align: center;
   padding: 20px 0;
@@ -70,7 +102,6 @@
   box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Content */
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -81,6 +112,7 @@
 .footer-links {
   list-style: none;
   display: flex;
+  flex-wrap: wrap; /* Wrap links on smaller screens */
   justify-content: center;
   gap: 15px;
   margin: 15px 0;
@@ -119,5 +151,14 @@
   .footer-links {
     flex-direction: column;
     gap: 10px;
+    text-align: center;
+  }
+}
+
+/* Responsive Product Gallery */
+@media (max-width: 768px) {
+  .product-card {
+    width: 100%; /* Full width on smaller screens */
+    max-width: 300px;
   }
 }
