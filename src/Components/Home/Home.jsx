@@ -20,16 +20,17 @@ const Home = () => {
         </p>
         <h2 className="heading">Featured Products</h2>
         <div className="product-gallery">
-          {[in01, in02, in03, in04, in05].map((image, index) => (
-            <div className="product-card" key={index}>
-              <img src={image} alt={`Product ${index + 1}`} className="product-image" />
-              <div className="product-info">
-                <p>Dress Name {index + 1}</p>
-                <p>${100 + index * 10}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        {[in01, in02, in03, in04, in05].map((image, index) => (
+       <div className="product-card" key={index}>
+       <div className="product-text">Dress Name {index + 1}</div>
+       <img src={image} alt={`Product ${index + 1}`} className="product-image" />
+       <div className="product-info">
+        <p>${100 + index * 10}</p>
+      </div>
+    </div>
+  ))}
+</div>
+
       </section>
 
       {/* Footer */}
