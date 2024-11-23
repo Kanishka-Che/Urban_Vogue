@@ -9,39 +9,48 @@ import in05 from '../../assets/in05.png';
 const Home = () => {
   return (
     <div className="home-container">
-      
+      {/* Hero Section */}
+      <section className="hero">
+        <div className="hero-content">
+          <h1 className="hero-heading">Welcome to Urban Vogue</h1>
+          <p className="hero-subheading">Elevate Your Style, Redefine Elegance</p>
+          <button className="hero-button">Shop Now</button>
+        </div>
+      </section>
 
       {/* Features Section */}
       <section className="section features">
-        <h1 className="heading">Welcome to Urban Vogue!</h1>
-        <h4 className="subheading">We Love To Make Great Things, Things That Matter!</h4>
+        <h2 className="heading">Why Choose Urban Vogue?</h2>
         <p className="welcome-text">
-          Urban Vogue is your premier online destination for fashion-forward individuals seeking curated collections that blend contemporary trends with timeless elegance. Explore a diverse array of stylish apparel and accessories to elevate your wardrobe.
+          Discover exclusive collections that bring together contemporary trends and timeless designs. Let your wardrobe reflect your unique style!
         </p>
         <h2 className="heading">Featured Products</h2>
         <div className="product-gallery">
-        {[in01, in02, in03, in04, in05].map((image, index) => (
-       <div className="product-card" key={index}>
-       <div className="product-text">Dress Name {index + 1}</div>
-       <img src={image} alt={`Product ${index + 1}`} className="product-image" />
-       <div className="product-info">
-        <p>${100 + index * 10}</p>
-      </div>
-    </div>
-  ))}
-</div>
-
+          {[in01, in02, in03, in04, in05].map((image, index) => (
+            <div className="product-card" key={index}>
+              <img src={image} alt={`Product ${index + 1}`} className="product-image" />
+              <div className="product-info">
+                <h3 className="product-title">Dress Name {index + 1}</h3>
+                <p className="product-price">${100 + index * 10}</p>
+                <button className="product-button">Add to Cart</button>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* Footer */}
-    <footer className="footer">
-      <div className="footer-content">
-      <p>&copy; 2024 Urban Vogue. All rights reserved.</p>
-    
-      <p className="footer-credit">Designed with ❤️ by Urban Vogue Team</p>
-     </div>
-   </footer>
-
+      <footer className="footer">
+        <div className="footer-content">
+          <p>&copy; 2024 Urban Vogue. All rights reserved.</p>
+          <div className="social-icons">
+            <a href="#" className="social-icon">Facebook</a>
+            <a href="#" className="social-icon">Instagram</a>
+            <a href="#" className="social-icon">Twitter</a>
+          </div>
+          <p className="footer-credit">Designed with ❤️ by the Urban Vogue Team</p>
+        </div>
+      </footer>
     </div>
   );
 };
