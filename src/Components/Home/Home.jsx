@@ -9,22 +9,24 @@ import in05 from '../../assets/in05.png';
 const Home = () => {
   return (
     <div className="home-container">
-      {/* Features Section */}
-      <section className="section features">
-        <h1 className="heading">Welcome to Urban Vogue!</h1>
-        <h4 className="subheading">We Love To Make Great Things, Things That Matter!</h4>
-        <p className="welcome-text">
-          Urban Vogue is your premier online destination for fashion-forward individuals seeking curated collections that blend contemporary trends with timeless elegance. Explore a diverse array of stylish apparel and accessories to elevate your wardrobe.
-        </p>
-        <h2 className="heading">Featured Products</h2>
+      {/* Hero Section */}
+      <section className="hero">
+        <div className="hero-text">
+          <h1>Welcome to Urban Vogue</h1>
+          <p>Your destination for timeless elegance and contemporary trends.</p>
+          <button className="shop-now-btn">Shop Now</button>
+        </div>
+      </section>
+
+      {/* Featured Products */}
+      <section className="section products">
+        <h2>Featured Products</h2>
         <div className="product-gallery">
           {[in01, in02, in03, in04, in05].map((image, index) => (
             <div className="product-card" key={index}>
-              <div className="product-text">Dress Name {index + 1}</div>
               <img src={image} alt={`Product ${index + 1}`} className="product-image" />
-              <div className="product-info">
-                <p>${100 + index * 10}</p>
-              </div>
+              <h3>Dress {index + 1}</h3>
+              <p>${100 + index * 20}</p>
             </div>
           ))}
         </div>
@@ -32,10 +34,8 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="footer">
-        <div className="footer-content">
-          <p>&copy; 2024 Urban Vogue. All rights reserved.</p>
-          <p className="footer-credit">Designed with ❤️ by Urban Vogue Team</p>
-        </div>
+        <p>&copy; 2025 Urban Vogue. All rights reserved.</p>
+        <p>Designed with ❤️ by Urban Vogue Team</p>
       </footer>
     </div>
   );
