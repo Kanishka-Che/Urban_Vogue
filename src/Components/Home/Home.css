@@ -1,7 +1,7 @@
 /* Container */
 .home-container {
-  max-width: 1200px; /* Set a max width for proper scaling */
-  margin: 0 auto; /* Center the container */
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -9,7 +9,7 @@
 .section {
   text-align: center;
   margin-top: 40px;
-  padding: 0 20px; /* Add padding for better spacing on smaller screens */
+  padding: 0 20px;
 }
 
 .heading, .subheading {
@@ -19,7 +19,7 @@
 
 .heading {
   font-size: 36px;
-  line-height: 1.2; /* Improve readability */
+  line-height: 1.2;
 }
 
 .subheading {
@@ -33,7 +33,7 @@
   color: #555;
   max-width: 800px;
   margin: 0 auto 30px;
-  line-height: 1.6; /* Improve readability */
+  line-height: 1.6;
 }
 
 /* Product Gallery */
@@ -45,10 +45,10 @@
 }
 
 .product-card {
-  width: 200px; /* Slightly larger for better display */
+  width: 200px;
   text-align: center;
   position: relative;
-  background-color: #f9f9f9; /* Add a background for contrast */
+  background-color: #f9f9f9;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -74,10 +74,10 @@
 
 .product-text {
   position: absolute;
-  top: 10px; /* Adjusted for better spacing */
+  top: 10px;
   left: 50%;
   transform: translate(-50%, 0);
-  background-color: rgba(0, 0, 0, 0.7); /* Darker background for better readability */
+  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 5px 10px;
   font-size: 14px;
@@ -108,33 +108,6 @@
   padding: 0 20px;
 }
 
-/* Footer Links */
-.footer-links {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap; /* Wrap links on smaller screens */
-  justify-content: center;
-  gap: 15px;
-  margin: 15px 0;
-  padding: 0;
-}
-
-.footer-links li {
-  display: inline-block;
-}
-
-.footer-links a {
-  text-decoration: none;
-  font-size: 16px;
-  color: #ecf0f1;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: #f1c40f;
-}
-
-/* Footer Text */
 .footer p {
   font-size: 14px;
   margin: 5px 0;
@@ -146,19 +119,14 @@
   color: #bdc3c7;
 }
 
-/* Responsive Footer */
-@media (max-width: 768px) {
-  .footer-links {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
-}
-
-/* Responsive Product Gallery */
+/* Responsive Design */
 @media (max-width: 768px) {
   .product-card {
-    width: 100%; /* Full width on smaller screens */
+    width: 100%;
     max-width: 300px;
+  }
+
+  .footer-content {
+    padding: 10px;
   }
 }
