@@ -1,0 +1,81 @@
+
+a {
+  text-decoration: none;
+}
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 75%;
+  width: auto;
+  position: relative;
+}
+
+.login-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('src/assets/back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+form {
+  background-color:#f1f4f2; /* Adjust the opacity as needed */
+  background: transparent;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(245, 243, 243, 0.959);
+  z-index: 1; /* Ensure the form appears above the pseudo-element */
+  border: 20%;
+  backdrop-filter: #4e584f;
+}
+
+button{
+  background-color: #ecf2ec;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-che {
+  margin-bottom: 15px;
+}
+
+.input-che input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.register-acc {
+  text-align: center;
+  color: #ffffff;
+}
+
+.register-acc a {
+  color: rgb(0, 0, 255);
+}
+.forgot{
+  color: #f7f7f7;
+}
+.forgot a{
+  color: rgb(0, 0, 255);
+}
