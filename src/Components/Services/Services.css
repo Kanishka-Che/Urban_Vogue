@@ -6,65 +6,20 @@
     font-family: Arial, sans-serif;
 }
 
-/* Navigation Bar */
-.navBar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #333;
-    padding: 15px 50px;
-}
-
-.navLogo {
-    width: 120px;
-}
-
-.navLinks {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navLinks li {
-    display: inline;
-}
-
-.navLinks a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    padding: 8px 12px;
-    transition: 0.3s;
-}
-
-.navLinks a:hover {
-    background-color: #555;
-    border-radius: 5px;
-}
-
-.buttonNav {
-    background-color: #ff6600;
-    border: none;
-    color: white;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.buttonNav:hover {
-    background-color: #ff4500;
-}
-
-/* Services Section */
 .servicesContainer {
-    text-align: center;
+    min-height: 100vh;
     padding: 50px 20px;
+    text-align: center;
+    background-image: url("../../assets/service.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(246, 11, 11); 
 }
 
-.servicesContainer h1 {
+.servicesTitle {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .serviceCards {
@@ -77,21 +32,32 @@
 .serviceCard {
     width: 300px;
     padding: 20px;
-    background-color: #f4f4f4;
+    background: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    color: #333;
 }
 
 .serviceCard:hover {
     transform: scale(1.05);
 }
 
+.serviceIcon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
 .serviceCard h2 {
-    color: #333;
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
 .serviceCard p {
-    color: #666;
+    font-size: 16px;
+}
+
+.servic-1{
+    width: 300px;
+    padding: 20px;
 }

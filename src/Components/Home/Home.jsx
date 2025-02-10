@@ -9,7 +9,7 @@ import in05 from '../../assets/in05.png';
 const Home = () => {
   return (
     <div className="home-container">
-      {/* Hero Section */}
+      
       <section className="hero">
         <div className="hero-text">
           <h1>Welcome to Urban Vogue</h1>
@@ -18,7 +18,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Products */}
+      
       <section className="section products">
         <h2>Featured Products</h2>
         <div className="product-gallery">
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Footer */}
+      
       <footer className="footer">
         <p>&copy; 2025 Urban Vogue. All rights reserved.</p>
         <p>Designed with ❤️ by Urban Vogue Team</p>

@@ -1,43 +1,50 @@
-import React from 'react';
-import './Services.css';
-import { NavLink } from 'react-router-dom';
-import NavImg from '../../assets/Untitled.png';
+import React from "react";
+import "./Services.css"; 
+
+
+
+const servicesData = [
+  {
+    id: 1,
+    title: "Free Shipping",
+    description: "Get free shipping on all orders over $30.",
+    icon: "🚚",
+  },
+  {
+    id: 2,
+    title: "24/7 Support",
+    description: "We offer round-the-clock customer support.",
+    icon: "📞",
+  },
+  {
+    id: 3,
+    title: "Easy Returns",
+    description: "Hassle-free returns within 30 days.",
+    icon: "🔄",
+  },
+  {
+    id: 4,
+    title: "Secure Payment",
+    description: "100% secure payment with multiple options.",
+    icon: "🔒",
+  },
+];
 
 const Services = () => {
-    return (
-      <div>
-          {/* Navigation Bar */}
-          <nav className="navBar">
-              <img src={NavImg} alt="Logo" className="navLogo" />
-              <ul className="navLinks">
-                  <li><NavLink to="/">Home</NavLink></li>
-                  <li><NavLink to="/About">About Us</NavLink></li>
-                  <li><NavLink to="/Services">Services/Products</NavLink></li>
-                  <li><NavLink to="/Contact">Contact Us</NavLink></li>
-                  <li><NavLink to="/login"><button className="buttonNav">Login</button></NavLink></li>
-              </ul>
-          </nav>
-
-          {/* Services Section */}
-          <div className="servicesContainer">
-              <h1>Our Services</h1>
-              <div className="serviceCards">
-                  <div className="serviceCard">
-                      <h2>Web Development</h2>
-                      <p>We create modern, responsive websites to boost your online presence.</p>
-                  </div>
-                  <div className="serviceCard">
-                      <h2>App Development</h2>
-                      <p>Our team builds user-friendly mobile apps for iOS and Android.</p>
-                  </div>
-                  <div className="serviceCard">
-                      <h2>SEO & Marketing</h2>
-                      <p>Increase visibility and grow your brand with our SEO strategies.</p>
-                  </div>
-              </div>
+  return (
+    <div className="servicesContainer">
+      <h1 className="servicesTitle">Our Services</h1>
+      <div className="serviceCards">
+        {servicesData.map((service) => (
+          <div key={service.id} className="serviceCard">
+            <div className="serviceIcon">{service.icon}</div>
+            <h2>{service.title}</h2>
+            <p>{service.description}</p>
           </div>
+        ))}
       </div>
-    );
-}
+    </div>
+  );
+};
 
 export default Services;
