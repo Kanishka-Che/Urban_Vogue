@@ -1,16 +1,162 @@
-.our06{
-    margin-top: 50px;
-}
-.Our-map{
+/* General Styling */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
 }
 
-.button.Email{
-    font-size: 6rem;
-    width: 15%;
-  padding: 10px 30px;
-  outline: auto;
-  border-radius: 30px;
-  background-color: brown;
+/* Map Section */
+.map-container {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
 }
 
+.map {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+/* Store Info Section */
+.store-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.store-info h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.store-info p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Contact via Email Section */
+.contact-email {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.contact-email h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.contact-email p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-email a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-email a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Section */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.contact-form h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+/* Response Message */
+.response-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #28a745;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .map-container, .store-info, .contact-email, .contact-form {
+        width: 95%;
+    }
+
+    .store-info h1,
+    .contact-email h2,
+    .contact-form h2 {
+        font-size: 20px;
+    }
+
+    .store-info p,
+    .contact-email p {
+        font-size: 14px;
+    }
+}
