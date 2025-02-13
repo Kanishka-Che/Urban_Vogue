@@ -5,6 +5,8 @@ import photo7 from '../../assets/people03.jpg'
 import photo8 from '../../assets/people03.jpg'
 import p9 from '../../assets/p9.png'
 import p10 from '../../assets/p10.png'
+import Footer from '../Footer/Footer'
+
 
 const About = () => {
     return (
@@ -60,14 +62,13 @@ const About = () => {
             <p4>He manages AgriGreen Mart’s IT infrastructure, ensuring smooth and secure online operations. His technical expertise keeps the digital side of the business running efficiently.
             </p4>
           </div>
-          </div>      
+          </div>  
+            
           </section>
-  
-  
-  
-  
+          <Footer /> 
    </div>
-    )
-  }
+   
+    );
+  };
   
   export default About;
