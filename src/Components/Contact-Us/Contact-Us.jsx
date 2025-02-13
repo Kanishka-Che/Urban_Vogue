@@ -3,6 +3,7 @@ import { TfiEmail } from 'react-icons/tfi';
 import axios from 'axios';
 import './Contact-Us.css';
 import NavImg from '../../assets/Untitled.png';
+import Footer from '../Footer/Footer';
 
 const Contact = () => {
     // State to handle form input
@@ -105,6 +106,8 @@ const Contact = () => {
                 </form>
                 {responseMessage && <p className="response-message">{responseMessage}</p>}
             </div>
+
+            <Footer />
         </div>
     );
 };
