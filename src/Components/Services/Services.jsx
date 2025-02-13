@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css"; 
+import Footer from "../Footer/Footer";
 
 
 
@@ -43,6 +44,7 @@ const Services = () => {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 };
