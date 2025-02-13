@@ -99,20 +99,6 @@ body {
   margin-bottom: 15px;
 }
 
-/* Footer */
-.footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 50px;
-  font-size: 14px;
-}
-
-.footer p {
-  margin: 5px 0;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero {

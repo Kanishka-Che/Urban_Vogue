@@ -1,63 +1,113 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+/* Services.css */
 
+/* General container for the services page */
 .servicesContainer {
-    min-height: 100vh;
-    padding: 50px 20px;
-    text-align: center;
-    background-image: url("../../assets/service.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: rgb(246, 11, 11); 
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
 }
 
+/* Title of the services section */
 .servicesTitle {
-    font-size: 32px;
-    margin-bottom: 30px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
 }
 
+/* Container for the service cards */
 .serviceCards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
 }
 
+/* Individual service card */
 .serviceCard {
-    width: 300px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8); 
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    color: #333;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 22%; /* Default to 4 cards in a row */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effect */
 .serviceCard:hover {
-    transform: scale(1.05);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Icon style */
 .serviceIcon {
-    font-size: 40px;
-    margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #3498db; /* Blue color */
 }
 
+/* Title inside each service card */
 .serviceCard h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
 }
 
+/* Description inside each service card */
 .serviceCard p {
-    font-size: 16px;
+  font-size: 14px;
+  color: #666;
 }
 
-.servic-1{
-    width: 300px;
-    padding: 20px;
+/* Footer styling */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* Media Queries for responsiveness */
+
+/* For medium screens (tablets) */
+@media (max-width: 768px) {
+  .servicesTitle {
+    font-size: 28px;
+  }
+
+  /* Stacking service cards to be in 2 columns */
+  .serviceCard {
+    width: 48%; /* Two cards in a row */
+  }
+}
+
+/* For small screens (mobile devices) */
+@media (max-width: 480px) {
+  .servicesTitle {
+    font-size: 24px;
+  }
+
+  /* Stacking service cards to be in 1 column */
+  .serviceCard {
+    width: 100%; /* One card in a row */
+  }
+
+  .serviceIcon {
+    font-size: 35px; /* Slightly smaller icon size */
+  }
+
+  .serviceCard h2 {
+    font-size: 18px; /* Smaller title for mobile */
+  }
+
+  .serviceCard p {
+    font-size: 12px; /* Smaller description for mobile */
+  }
 }

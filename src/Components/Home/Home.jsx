@@ -5,6 +5,7 @@ import in02 from '../../assets/in02.png';
 import in03 from '../../assets/in03.png';
 import in04 from '../../assets/in04.png';
 import in05 from '../../assets/in05.png';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
   return (
@@ -31,12 +32,7 @@ const Home = () => {
           ))}
         </div>
       </section>
-
-      
-      <footer className="footer">
-        <p>&copy; 2025 Urban Vogue. All rights reserved.</p>
-        <p>Designed with ❤️ by Urban Vogue Team</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
