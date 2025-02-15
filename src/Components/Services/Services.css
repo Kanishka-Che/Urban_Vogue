@@ -2,11 +2,13 @@
 
 /* General container for the services page */
 .servicesContainer {
-  padding: 20px;
-  max-width: 1200px;
+  
   margin: 0 auto;
   font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
+  
+  height: 100vh;
+  background-image: url("C:/users/chethana/desktop/urban_Vogue cloths web/my-vite-app-Urban_vogue/src/assets/service.jpg");
+
 }
 
 /* Title of the services section */
