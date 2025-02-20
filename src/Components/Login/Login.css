@@ -2,13 +2,18 @@
 a {
   text-decoration: none;
 }
+
+.Login{
+  color: #504848;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
 .login-page {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 75%;
-  width: auto;
+  width: 100%;
   position: relative;
 }
 
@@ -24,17 +29,20 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   
-  z-index: -1; /* Ensure the pseudo-element is behind other content */
+  z-index: -1;
 }
 
 form {
-  background-color:#f1f4f2; /* Adjust the opacity as needed */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color:#f1f4f2; 
   background: transparent;
-  padding: 40px;
+  padding: 70px;
   border-radius: 8px;
   box-shadow: 0 0 30px rgba(245, 243, 243, 0.959);
-  z-index: 1; /* Ensure the form appears above the pseudo-element */
-  border: 20%;
+  z-index: 1; 
+  border: 40%;
   backdrop-filter: #4e584f;
 }
 
@@ -48,11 +56,11 @@ h2 {
 }
 
 .input-che {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .input-che input {
-  width: 100%;
+  width: 110%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -62,7 +70,12 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 15px;  
+
+}
+
+a{
+  margin-left: 50px;
 }
 
 .register-acc {

@@ -14,8 +14,8 @@ const Login = () => {
             <div className="login_section">
 
             <form action=''>
-                 <h2>Login</h2>
-
+                 <h2 className='Login'>Login</h2>
+                <div>
                  <div className='input-che'>
                      <input type="text" placeholder='Username' required/> 
                  </div>
@@ -33,6 +33,8 @@ const Login = () => {
                  
                  <div className='register-acc'>
                     <p>Don't have an account? <a href='#'>Register</a></p>
+                 </div>
+
                  </div>
                  
             </form>
