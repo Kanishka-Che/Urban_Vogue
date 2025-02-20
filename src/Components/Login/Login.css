@@ -6,6 +6,7 @@ a {
 .Login{
   color: #504848;
   font-size: 60px;
+  margin-bottom: 50px;
 }
 .login-page {
   display: flex;
@@ -32,9 +33,12 @@ a {
 }
 
 form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color:#f1f4f2; 
   background: transparent;
-  padding: 40px;
+  padding: 70px;
   border-radius: 8px;
   box-shadow: 0 0 30px rgba(245, 243, 243, 0.959);
   z-index: 1; 
@@ -52,11 +56,11 @@ h2 {
 }
 
 .input-che {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .input-che input {
-  width: 100%;
+  width: 110%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -66,8 +70,12 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 15px;  
 
+}
+
+a{
+  margin-left: 50px;
 }
 
 .register-acc {
