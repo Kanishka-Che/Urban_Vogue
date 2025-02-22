@@ -32,7 +32,7 @@ const Login = () => {
                  <button type='submit'>Login</button>
                  
                  <div className='register-acc'>
-                    <p>Don't have an account? <a href='#'>Register</a></p>
+                    <p>Don't have an account?</p> <button onClick={()=>Navigate("/register")}className='register-button'>Register</button>
                  </div>
 
                  </div>
