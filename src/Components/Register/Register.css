@@ -1,62 +1,76 @@
 .R-01 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f3f4f6;
-  }
-  
-  .R-02 {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 350px;
-  }
-  
-  .R-03 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  
-  .R-04 {
-    color: green;
-    text-align: center;
-  }
-  
-  .R-05, .R-08, .R-11 {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .R06, .R-09, .R-12 {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .R-07, .R-10, .R-13 {
-    color: red;
-    font-size: 12px;
-  }
-  
-  .R-14 {
-    width: 100%;
-    background-color: #3b82f6;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .R-14:hover {
-    background-color: #2563eb;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.R-02 {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.R-03 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.R-04 {
+  color: green;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.R-05, .R-08, .R-11 {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.R06, .R-09, .R-12 {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.R-06:focus, .R-09:focus, .R-12:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.R-07, .R-10, .R-13 {
+  color: red;
+  font-size: 0.9rem;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.R-14 {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.R-14:hover {
+  background-color: #357ab7;
+}
