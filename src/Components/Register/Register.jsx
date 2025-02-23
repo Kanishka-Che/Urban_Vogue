@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { useForm } from "react-hook-form"; 
 
 const Register = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
